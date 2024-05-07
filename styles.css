@@ -43,20 +43,20 @@ body {
     border: 2px solid var(--branco-principal)
 }
 
-.conteiner__aviso{
+.container__aviso{
  font-size: 12px;
  color: var(--cinza-secundario);
 }
 
-.conteier__título{   
+.container__título{   
     font-size: 28px;
     font-weight: 700;
 }
 
-.conteiner__imagem{
+.container__imagem{
     margin: 1em 0 2em 0;
 }
 
-.conteier__caixa{
+.container__caixa{
     margin: 0 6em;
 }
