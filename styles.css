@@ -9,6 +9,9 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
 
 }
 
@@ -63,11 +66,19 @@ body {
 .container__caixa{
     margin: 0 6em;
 }
-
-.principal {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+.secundario__imagem {
+    width: 80%;
+}
+.secundario {
     align-items: center;
-    text-align: center;
+    margin: 0 10em;
+}
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto {
+    color: var(--cinza-secundario);
 }
